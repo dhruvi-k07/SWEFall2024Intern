@@ -124,6 +124,6 @@ main();
 // module.exports = {
 //   railway: {
 //     schedule: "0 */4 * * 1-5", // Run every 4 hours Monday-Friday
-//     script: "node main.js"
+//     script: "npm start"
 //   }
 // };
