@@ -119,3 +119,11 @@ async function main() {
 
 // Run the main function
 main();
+
+// Bonus: Railway CI/CD configuration (commented out)
+// module.exports = {
+//   railway: {
+//     schedule: "0 */4 * * 1-5", // Run every 4 hours Monday-Friday
+//     script: "node main.js"
+//   }
+// };
