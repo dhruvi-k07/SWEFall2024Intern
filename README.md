@@ -22,7 +22,7 @@ The script retrieves all items from the board, extracting the necessary columns 
 
 ### Part 2: Send Emails
 
-Originally, I was instructed to use the SendGrid Email API to send emails. However, due to certain constraints, I used **AWS SES (Simple Email Service)** instead. The script extracts the email addresses and corresponding email content from the Monday.com board data and sends emails to each recipient using AWS SES.
+The script successfully implements the **SendGrid Email API** to send emails. The script extracts the email addresses and corresponding email content from the Monday.com board data and sends emails to each recipient using SendGrid. The email content is sent as plain text, and the sending process is logged for confirmation.
 
 ### Bonus: Railway CI/CD Configuration
 
